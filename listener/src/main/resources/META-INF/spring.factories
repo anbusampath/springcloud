@@ -1,0 +1,3 @@
+# Environment Post Processor
+org.springframework.boot.env.EnvironmentPostProcessor=io.anbu.lister.EnvironmentPostProcessorExample
+org.springframework.context.ApplicationListener=io.anbu.lister.ApplicationListenerExample
