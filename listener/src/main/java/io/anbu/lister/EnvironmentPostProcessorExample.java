@@ -10,7 +10,7 @@ public class EnvironmentPostProcessorExample implements EnvironmentPostProcessor
 	public void postProcessEnvironment(ConfigurableEnvironment environment, SpringApplication application) {
 		// TODO Auto-generated method stub
 		String[] activeProfiles = environment.getActiveProfiles();
-		System.out.println("CredStachEnvironmentPostProcessor.postProcessEnvironment()");
+		System.out.println("EnvironmentPostProcessorExample.postProcessEnvironment()");
 
 	}
 
